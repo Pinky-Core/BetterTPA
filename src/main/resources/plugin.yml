@@ -1,0 +1,7 @@
+name: BetterTPA
+version: '${project.version}'
+main: de.banarnia.bettertpa.BetterTPA
+prefix: BetterTPA
+author: Banarnia
+description: Modern TPA plugin with great customization.
+api-version: 1.13
