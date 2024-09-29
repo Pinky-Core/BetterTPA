@@ -10,9 +10,11 @@ language: en
 request-duration: 60
 
 # Warmup time (in s) to wait after an accepted tpa request, before teleporting the player.
+# Set to 0 to disable warmup.
 teleport-warmup-time: 0
 
 # Cooldown time (in s) to prevent further tpa requests from a player, if the last one was denied.
+# Set to 0 to disable cooldown.
 request-cooldown: 10
 
 # Enable debug messages.

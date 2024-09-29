@@ -1,6 +1,6 @@
-package de.banarnia.tpa.manager;
+package de.banarnia.bettertpa.manager;
 
-import de.banarnia.tpa.lang.Message;
+import de.banarnia.bettertpa.lang.Message;
 import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
@@ -49,6 +49,14 @@ public class IgnoreManager {
      * @param silent Set to true to send message.
      */
     public void toggleIgnore(Player ignoringPlayer, Player ignoredPlayer, boolean silent) {
+        // Check if player tries to ignore himself.
+        if (ignoredPlayer == ignoringPlayer) {
+            if (!silent)
+                ignoringPlayer.sendMessage(Message.COMMAND_ERROR_TPAIGNORE_SELF.get());
+
+            return;
+        }
+
         // Check if player is currently ignored.
         boolean isIgnored = isIgnored(ignoredPlayer, ignoringPlayer);
 

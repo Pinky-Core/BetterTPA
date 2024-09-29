@@ -1,6 +1,6 @@
-package de.banarnia.tpa.listener;
+package de.banarnia.bettertpa.listener;
 
-import de.banarnia.tpa.manager.TPAManager;
+import de.banarnia.bettertpa.manager.TPAManager;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
@@ -15,7 +15,7 @@ public class TPAListener implements Listener {
 
     @EventHandler
     public void handleQuit(PlayerQuitEvent event) {
-
+        manager.handlePlayerQuit(event.getPlayer());
     }
 
 }

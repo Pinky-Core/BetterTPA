@@ -1,7 +1,7 @@
-package de.banarnia.tpa.config;
+package de.banarnia.bettertpa.config;
 
 import de.banarnia.api.config.Config;
-import de.banarnia.tpa.BetterTPA;
+import de.banarnia.bettertpa.BetterTPA;
 
 public class TPAConfig {
 
@@ -18,16 +18,16 @@ public class TPAConfig {
         config.loadConfig();
     }
 
-    public double getRequestDuration() {
-        return config.getDouble("request-duration", 60);
+    public int getRequestDuration() {
+        return config.getInt("request-duration", 60);
     }
 
-    public double getWarmupTime() {
-        return config.getDouble("teleport-warmup-time", 0);
+    public int getWarmupTime() {
+        return config.getInt("teleport-warmup-time", 0);
     }
 
-    public double getRequestCooldown() {
-        return config.getDouble("request-cooldown", 10);
+    public int getRequestCooldown() {
+        return config.getInt("request-cooldown", 10);
     }
 
     public String getLanguage() {

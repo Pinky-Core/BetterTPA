@@ -1,4 +1,4 @@
-package de.banarnia.tpa.events;
+package de.banarnia.bettertpa.events.requests;
 
 import de.banarnia.api.events.BanarniaEvent;
 import org.bukkit.event.Cancellable;

@@ -1,9 +1,9 @@
-package de.banarnia.tpa.commands;
+package de.banarnia.bettertpa.commands.ignore;
 
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.Default;
-import de.banarnia.tpa.manager.IgnoreManager;
+import de.banarnia.bettertpa.manager.IgnoreManager;
 import org.bukkit.entity.Player;
 
 @CommandAlias("tpaignoreall")
