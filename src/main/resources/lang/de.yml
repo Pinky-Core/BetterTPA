@@ -1,48 +1,48 @@
 Message:
   prefix: §8[§6BetterTPA§8]§7
-  timer-info-tpa-warmup: '%prefix% Du wirst in §e%time% seconds§7 teleportiert.'
-  timer-ìnfo-tpa-teleport: '%prefix% Teleportiere zu §e%target%§7...'
-  timer-error-tpa-expired-sender: '%prefix% §e%target% §7hat deine Anfrage nicht rechtzeitig angenommen.'
-  timer-error-tpa-expired-receiver: '%prefix% §7TPA-Anfrage von §e%target% §7ist abgelaufen.'
-  command-info-tpa-sender: '%prefix% Du hast eine TPA-Anfrage an §e%target%§7 gesendet.'
-  command-info-tpa-accepted-receiver: '%prefix% Du hast die TPA-Anfrage von §e%target%§7 akzeptiert.'
-  command-info-tpa-accepted-sender: '%prefix% §e%target% §7hat deine TPA-Anfrage akzeptiert.'
-  command-error-tpa-denied-receiver: '%prefix% Du hast die TPA-Anfrage von §e%target%§7 abgelehnt.'
-  command-error-tpa-denied-sender: '%prefix% §e%target% §chat deine TPA-Anfrage abgelehnt.'
-  command-error-tpa-event-cancelled: '%prefix% §cDas Event wurde unterbrochen.'
-  command-error-tpa-self: '%prefix% §cDu kannst dir selbst keine TPA-Anfrage senden.'
-  command-error-tpa-pending: '%prefix% §cEs existiert bereits eine laufende TPA-Anfrage zu diesem Spieler.'
-  command-error-tpa-cooldown: '%prefix% §cDu musst warten, bevor du diesem Spieler eine neue TPA-Anfrage stellst.'
-  command-error-tpa-ignored: '%prefix% §e%target% §cakzeptiert grade keine TPA-Anfrage.'
-  command-error-tpaccept-empty: '%prefix% §cDu hast keine laufenden TPA-Anfragen.'
-  command-error-tpaccept-invalid: '%prefix% §cDu hast keine laufende TPA-Anfrage von §e%target%§7.'
-  command-info-tpaignore-ignore: '%prefix% Du wirst keine TPA-Anfrage von §e%target%§7 mehr erhalten.'
-  command-info-tpaignore-unignore: '%prefix% Du bekommst nun wieder TPA-Anfragen von §e%target% §7.'
-  command-error-tpaignore-bypass: '%prefix% §cDu kannst diesen Spieler nicht ignorieren.'
-  command-error-tpaignore-self: '%prefix% §cDu kannst dich nicht selbst ignorieren.'
-  command-info-tpaignoreall-ignore: '%prefix% Du wirst keine TPA-Anfragen mehr erhalten.'
-  command-info-tpaignoreall-unignore: '%prefix% Du bekommst nun wieder TPA-Anfragen.'
-  command-info-reload: '%prefix% Die Konfiguration wurde neu geladen.'
+  timer-info-tpa-warmup: '%prefix% Serás teletransportado en §e%time% segundos§7.'
+  timer-ìnfo-tpa-teleport: '%prefix% Teletransportando a §e%target%§7...'
+  timer-error-tpa-expired-sender: '%prefix% §e%target% §7no aceptó tu solicitud a tiempo.'
+  timer-error-tpa-expired-receiver: '%prefix% §7La solicitud TPA de §e%target% §7ha expirado.'
+  command-info-tpa-sender: '%prefix% Has enviado una solicitud TPA a §e%target%§7.'
+  command-info-tpa-accepted-receiver: '%prefix% Has aceptado la solicitud TPA de §e%target%§7.'
+  command-info-tpa-accepted-sender: '%prefix% §e%target% §7ha aceptado tu solicitud TPA.'
+  command-error-tpa-denied-receiver: '%prefix% Has rechazado la solicitud TPA de §e%target%§7.'
+  command-error-tpa-denied-sender: '%prefix% §e%target% §cha rechazado tu solicitud TPA.'
+  command-error-tpa-event-cancelled: '%prefix% §cEl evento ha sido cancelado.'
+  command-error-tpa-self: '%prefix% §cNo puedes enviarte una solicitud TPA a ti mismo.'
+  command-error-tpa-pending: '%prefix% §cYa existe una solicitud TPA en curso para este jugador.'
+  command-error-tpa-cooldown: '%prefix% §cDebes esperar antes de enviar otra solicitud TPA a este jugador.'
+  command-error-tpa-ignored: '%prefix% §e%target% §cno está aceptando solicitudes TPA en este momento.'
+  command-error-tpaccept-empty: '%prefix% §cNo tienes solicitudes TPA pendientes.'
+  command-error-tpaccept-invalid: '%prefix% §cNo tienes una solicitud TPA pendiente de §e%target%§7.'
+  command-info-tpaignore-ignore: '%prefix% Ya no recibirás solicitudes TPA de §e%target%§7.'
+  command-info-tpaignore-unignore: '%prefix% Ahora volverás a recibir solicitudes TPA de §e%target% §7.'
+  command-error-tpaignore-bypass: '%prefix% §cNo puedes ignorar a este jugador.'
+  command-error-tpaignore-self: '%prefix% §cNo puedes ignorarte a ti mismo.'
+  command-info-tpaignoreall-ignore: '%prefix% Ya no recibirás solicitudes TPA.'
+  command-info-tpaignoreall-unignore: '%prefix% Ahora volverás a recibir solicitudes TPA.'
+  command-info-reload: '%prefix% La configuración ha sido recargada.'
   command-info-tparequest-receiver: |-
     <dark_grey>-----------------------------------------
-    <gold> » <yellow>%target% <grey>möchte sich zu dir teleportieren!
+    <gold> » <yellow>%target% <grey>quiere teletransportarse a ti!
 
-    <green>               <hover:show_text:"<grey>Klicken zum <green>akzeptieren"><click:run_command:/tpaccept>Akzeptieren</click></hover>      <red><hover:show_text:"<grey>Klicken zum <red>ablehnen"><click:run_command:/tpdeny>Ablehnen</click></hover>
+    <green>               <hover:show_text:"<grey>Haz clic para <green>aceptar"><click:run_command:/tpaccept>Aceptar</click></hover>      <red><hover:show_text:"<grey>Haz clic para <red>rechazar"><click:run_command:/tpdeny>Rechazar</click></hover>
     <dark_grey>-----------------------------------------
   command-info-tpahererequest-receiver: |-
     <dark_grey>-----------------------------------------
-    <gold> » <yellow>%target% <grey>möchte dich zu sich teleportieren!
+    <gold> » <yellow>%target% <grey>quiere teletransportarte a él!
 
-    <green>               <hover:show_text:"<grey>Klicken zum <green>akzeptieren"><click:run_command:/tpaccept>Akzeptieren</click></hover>      <red><hover:show_text:"<grey>Klicken zum <red>ablehnen"><click:run_command:/tpdeny>Ablehnen</click></hover>
+    <green>               <hover:show_text:"<grey>Haz clic para <green>aceptar"><click:run_command:/tpaccept>Aceptar</click></hover>      <red><hover:show_text:"<grey>Haz clic para <red>rechazar"><click:run_command:/tpdeny>Rechazar</click></hover>
     <dark_grey>-----------------------------------------
-  command-info-list-header: '§6» §7Laufende §eTPA-Anfragen§7:'
-  command-info-list-tpa: ' <dark_grey>» <green><hover:show_text:''<grey>Klicken zum <green>akzeptieren''><click:run_command:''/tpaccept
-    %target%''>Akzeptieren</click></hover></green>  <red><hover:show_text:''<grey>Klicken
-    zum <red>ablehnen''><click:run_command:''/tpdeny %target%''>Ablehnen</click></hover></red>
-    <grey>- <yellow>%target% <grey>→ Dir'
-  command-info-list-tpahere: ' <dark_grey>» <green><hover:show_text:''<grey>Klicken zum <green>akzeptieren''><click:run_command:''/tpaccept
-    %target%''>Akzeptieren</click></hover></green>  <red><hover:show_text:''<grey>Klicken
-    zum <red>ablehnen''><click:run_command:''/tpdeny %target%''>Ablehnen</click></hover></red>
-    <grey>- <grey>Du → <yellow>%target%'
-  gui-home-page-previous: §cBack
-  gui-home-page-next: §aNext
+  command-info-list-header: '§6» §7Solicitudes §eTPA§7 en curso:'
+  command-info-list-tpa: ' <dark_grey>» <green><hover:show_text:''<grey>Haz clic para <green>aceptar''><click:run_command:''/tpaccept
+    %target%''>Aceptar</click></hover></green>  <red><hover:show_text:''<grey>Haz clic
+    para <red>rechazar''><click:run_command:''/tpdeny %target%''>Rechazar</click></hover></red>
+    <grey>- <yellow>%target% <grey>→ A ti'
+  command-info-list-tpahere: ' <dark_grey>» <green><hover:show_text:''<grey>Haz clic para <green>aceptar''><click:run_command:''/tpaccept
+    %target%''>Aceptar</click></hover></green>  <red><hover:show_text:''<grey>Haz clic
+    para <red>rechazar''><click:run_command:''/tpdeny %target%''>Rechazar</click></hover></red>
+    <grey>- <grey>Tú → <yellow>%target%'
+  gui-home-page-previous: §cAtrás
+  gui-home-page-next: §aSiguiente
